@@ -20,7 +20,6 @@ async function startGame() {
     data = [...questions]
     console.log(data)
     setNextQuestion(questions)
-
 }
 
 //Funcion que llama a resetState -> Borra los botones con las respuestas, y llama a renderQuestions -> renderiza las preguntas 
