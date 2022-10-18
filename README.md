@@ -20,4 +20,3 @@ As a way to practice Javascript I've developed this quizz application using `Ope
 ## Useful links and resources
 
 -   [Open Trivia Database](https://opentdb.com/api_config.php)
-
