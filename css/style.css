@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #c49495;
+}
+
+#start-btn {
+    background-color: #cb2127;
+    height: 100px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #cb2127;
+    color: #fff;
+    font-size: 2rem;
+    width: 500px;
+}
+
+#quiz-container {
+    color: white;
+    font-size: 110%;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid #cb2127;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+}
+
+#quiz-container .box {
+    padding: 10px 15px;
+}
+
+h1 {
+    display: block;
+    font-size: 2rem;
+    margin-block-start: 0.67rem;
+    margin-block-end: 0.67rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #cb2127;
+    margin-bottom: 10px;
+}
+
+#quiz-container .question {
+    background-color: #cb2127;
+    margin-bottom: 25px;
+    font-size: 115%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#quiz-container .question span {
+    background-color: #cb2127;
+    color: white;
+    display: block;
+    float: left;
+    margin-left: -15px;
+    margin-top: -10px;
+    margin-right: 0px;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 40px;
+}
+
+#quiz-container .answers {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#answer-container {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#quiz-container .answers .answer {
+    background-color: #fff;
+    color: #cb2127;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #cb2127;
+}
+
+
+#quiz-container button {
+    background-color: #cb2127;
+    color: #fff;
+    font-size: 110%;
+    border: 0;
+    width: 100%;
+}
+
+
+#quiz-container .answers .answer:hover, #quiz-container .answers {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#quiz-container .answers {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
