@@ -107,7 +107,6 @@ h1 {
     width: 100%;
 }
 
-
 #quiz-container .answers .answer:hover, #quiz-container .answers {
     cursor: pointer;
     font-weight: bold;
@@ -115,6 +114,11 @@ h1 {
 
 #quiz-container .answers {
     font-weight: bold;
+}
+
+.incorrect {
+    background-color: #cb2127;
+    color: #fff;
 }
 
 .hide {
